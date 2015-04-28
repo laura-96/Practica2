@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
 
-
+#include <stdlib.h>
 #include "../Tree.h"
 #include "../Linked_List.h"
 
@@ -9,7 +9,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTests
 {
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(TestingTree)
 	{
 	public:
 

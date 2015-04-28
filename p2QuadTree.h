@@ -51,9 +51,18 @@ public:
 
 		if (childs == NULL){
 
+			if (objects.Count() >= QUADTREE_MAX_ITEMS){
 
+
+			}
+
+			else{
+				objects.PushBack(col);
+			}
 
 		}
+
+			//Didn't know how to complete it
 
 	}
 
@@ -64,7 +73,25 @@ public:
 		// de fer intersecció amb el rectangle r
 		// retornar el número de intersección calculades en el procés
 		// Nota: és una funció recursiva
-		return 0;
+
+		int counter = 0;
+
+		while (counter < objects.Count){
+			nodes.PushBack(objects[counter]);
+			counter++;
+		}
+		
+		if (childs != NULL)
+		{
+			for (int i = 0; i < 4; i++)
+			{
+				if (Intersects(childs[i]->rect, r)){
+					counter += childs[i]->CollectCandidates(nodes, r);
+				}
+			}
+		}
+
+		return counter;
 	}
 
 	void CollectRects(p2DynArray<p2QuadTreeNode*>& nodes) 
