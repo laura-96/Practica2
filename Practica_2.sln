@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Practica_2", "Practica_2\Practica_2.vcxproj", "{AA1DAF66-52CA-4983-8098-15C80CBA5ED6}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest1", "UnitTest1\UnitTest1.vcxproj", "{6C0780EE-A090-4414-AD22-DB71C140FDE3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL Game", "SDL Game.vcxproj", "{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +11,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AA1DAF66-52CA-4983-8098-15C80CBA5ED6}.Debug|Win32.ActiveCfg = Debug|Win32
-		{AA1DAF66-52CA-4983-8098-15C80CBA5ED6}.Debug|Win32.Build.0 = Debug|Win32
-		{AA1DAF66-52CA-4983-8098-15C80CBA5ED6}.Release|Win32.ActiveCfg = Release|Win32
-		{AA1DAF66-52CA-4983-8098-15C80CBA5ED6}.Release|Win32.Build.0 = Release|Win32
-		{6C0780EE-A090-4414-AD22-DB71C140FDE3}.Debug|Win32.ActiveCfg = Debug|Win32
-		{6C0780EE-A090-4414-AD22-DB71C140FDE3}.Debug|Win32.Build.0 = Debug|Win32
-		{6C0780EE-A090-4414-AD22-DB71C140FDE3}.Release|Win32.ActiveCfg = Release|Win32
-		{6C0780EE-A090-4414-AD22-DB71C140FDE3}.Release|Win32.Build.0 = Release|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Debug|Win32.Build.0 = Debug|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Release|Win32.ActiveCfg = Release|Win32
+		{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
