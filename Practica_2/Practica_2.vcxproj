@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AA1DAF66-52CA-4983-8098-15C80CBA5ED6}</ProjectGuid>
+    <RootNamespace>Practica_2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Practica Quadtree\Animation.h" />
+    <ClInclude Include="..\..\Practica Quadtree\Application.h" />
+    <ClInclude Include="..\..\Practica Quadtree\Collider.h" />
+    <ClInclude Include="..\..\Practica Quadtree\Dummy.h" />
+    <ClInclude Include="..\..\Practica Quadtree\Globals.h" />
+    <ClInclude Include="..\..\Practica Quadtree\Linked_List.h" />
+    <ClInclude Include="..\..\Practica Quadtree\Module.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleAudio.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleCollision.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleFadeToBlack.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleInput.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleParticles.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModulePlayer.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleRender.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleSceneIntro.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleSceneSpace.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleTextures.h" />
+    <ClInclude Include="..\..\Practica Quadtree\ModuleWindow.h" />
+    <ClInclude Include="..\..\Practica Quadtree\p2DynArray.h" />
+    <ClInclude Include="..\..\Practica Quadtree\p2List.h" />
+    <ClInclude Include="..\..\Practica Quadtree\p2Point.h" />
+    <ClInclude Include="..\..\Practica Quadtree\p2QuadTree.h" />
+    <ClInclude Include="..\..\Practica Quadtree\Stack.h" />
+    <ClInclude Include="..\..\Practica Quadtree\Tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Practica Quadtree\Application.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\log.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\Main.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleAudio.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleCollision.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleFadeToBlack.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleInput.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleParticles.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModulePlayer.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleRender.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleSceneIntro.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleSceneSpace.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleTextures.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\ModuleWindow.cpp" />
+    <ClCompile Include="..\..\Practica Quadtree\p2QuadTree.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
