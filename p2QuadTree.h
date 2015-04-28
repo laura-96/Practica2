@@ -49,7 +49,7 @@ public:
 		// Nota: un Collider pot estar a més de un node del quadtree
 		// Nota: si un Collider intersecciona als quatre childs, deixar-lo al pare
 
-		if (childs == NULL){
+		/*if (childs == NULL){
 
 			if (objects.Count() >= QUADTREE_MAX_ITEMS){
 
@@ -61,14 +61,14 @@ public:
 			}
 
 		}
-
+		*/
 			//Didn't know how to complete it
 
 	}
 
 	int CollectCandidates(p2DynArray<Collider*>& nodes, const SDL_Rect& r) const
 	{
-		// TODO:
+		/*/ TODO:
 		// Omplir el array "nodes" amb tots els colliders candidats
 		// de fer intersecció amb el rectangle r
 		// retornar el número de intersección calculades en el procés
@@ -91,7 +91,8 @@ public:
 			}
 		}
 
-		return counter;
+		return counter;*/
+		return 0;
 	}
 
 	void CollectRects(p2DynArray<p2QuadTreeNode*>& nodes) 

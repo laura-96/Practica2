@@ -13,7 +13,7 @@ namespace UnitTests
 	{
 	public:
 
-		TEST_METHOD(PreOrderRecursive)
+		TEST_METHOD(PreOrder_Recursive)
 		{
 
 
@@ -45,7 +45,7 @@ namespace UnitTests
 			Assert::IsTrue((char)list.Index(9)->data == 'H');
 		}
 
-		TEST_METHOD(InOrderRecursive)
+		TEST_METHOD(InOrder_Recursive)
 		{
 
 
@@ -78,7 +78,7 @@ namespace UnitTests
 		}
 
 
-		TEST_METHOD(PostOrderRecursive)
+		TEST_METHOD(PostOrder_Recursive)
 		{
 
 
@@ -110,7 +110,7 @@ namespace UnitTests
 			Assert::IsTrue((char)list.Index(9)->data == 'F');
 		}
 
-		TEST_METHOD(PreOrderIterative)
+		TEST_METHOD(PreOrder_Iterative)
 		{
 
 
@@ -142,7 +142,7 @@ namespace UnitTests
 			Assert::IsTrue((char)list.Index(9)->data == 'H');
 		}
 
-		TEST_METHOD(PostOrderIterative)
+		TEST_METHOD(PostOrder_Iterative)
 		{
 
 
@@ -174,7 +174,7 @@ namespace UnitTests
 			Assert::IsTrue((char)list.Index(9)->data == 'F');
 		}
 
-		TEST_METHOD(Clear)
+		TEST_METHOD(delete_tree)
 		{
 			Tree<char> arbre('F');
 			p2List<TreeNode<char>*> list;
